@@ -1,0 +1,7 @@
+python main.py
+
+pip install pyinstaller
+
+pip install PyQt6 PyQt6-WebEngine
+
+pyinstaller --name main --windowed --add-data "engine.html;." --add-data "visual.css;." --add-data "logic.js;." main.py
